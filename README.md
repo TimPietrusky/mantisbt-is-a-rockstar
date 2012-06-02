@@ -38,6 +38,8 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 2. Unpack
 3. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/`
 
+Your done! Go and play!
+
 ## Tested
 
 ### MantisBT
