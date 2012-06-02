@@ -2,6 +2,9 @@
 
 Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
 
+> This theme just uses the magic power of CSS to transform something old into something awesome. 
+
+
 2012 by http://tim-pietrusky.de
 
 
