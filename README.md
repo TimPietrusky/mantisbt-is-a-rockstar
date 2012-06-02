@@ -27,7 +27,7 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
  * No HTML5 (since there is just css)
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
- * And theres a minified version, too. 
+ * And there is a minified version, too. 
 
 ## Install
 
@@ -35,13 +35,20 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 2. Unpack
 3. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/`
 
-## Tested MantisBT-Version
+## Tested
+
+### MantisBT
 
  * 1.2.10
+ 
+### Browser
+
+ * Chrome 19
+ * Firefox 12
 
 
 ## ToDo 
 
- * Add how to install the rockstar
  * Add live preview
  * Test more MantisBT-Versions
+ * Test more browsers
