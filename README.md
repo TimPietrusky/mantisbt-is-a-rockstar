@@ -7,7 +7,13 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 ## In Action
 
-![in action](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_intro.png)
+### Logo & menu
+![intro](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_intro.png)
+
+### Issues (visual enhanced)
+![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_visual_enhanced_issues.png)
+
+mantisbt_is_a_rockstar_visual_enhanced_issues
 
 ## Attributes
 
