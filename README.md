@@ -26,6 +26,7 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
 
 
+
 ## Tested MantisBT-Version
 
  * 1.2.10
@@ -33,5 +34,6 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 ## ToDo 
 
+ * Add how to install the rockstar
  * Add live preview
  * Test more MantisBT-Versions
