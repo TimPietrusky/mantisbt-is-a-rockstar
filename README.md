@@ -1,4 +1,4 @@
-# mantisbt-is-a-rockstar
+# mantisbt is a rockstar
 
 Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
 
@@ -28,7 +28,11 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
 
+## Install
 
+1. Use the **Download this repository as a zip file**-ZIP button on the top left
+2. Unpack
+3. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/`
 
 ## Tested MantisBT-Version
 
