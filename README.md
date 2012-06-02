@@ -57,3 +57,7 @@ Your done! Go and play!
  * Add live preview
  * Test more MantisBT-Versions
  * Test more browsers
+ 
+## License
+
+Free for all, so use it as you like.
