@@ -13,7 +13,9 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 ### Issues (visual enhanced)
 ![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_visual_enhanced_issues.png)
 
-mantisbt_is_a_rockstar_visual_enhanced_issues
+### Lovely buttons (+1)
+![buttons](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_buttons.png)
+
 
 ## Attributes
 
@@ -21,10 +23,13 @@ mantisbt_is_a_rockstar_visual_enhanced_issues
  * Super old CSS3
  * No HTML5 (since there is just css)
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
+ * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
+
 
 ## Tested MantisBT-Version
 
  * 1.2.10
+
 
 ## ToDo 
 
