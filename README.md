@@ -30,7 +30,7 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 ## Install
 
-1. Use the **Download this repository as a zip file**-ZIP button on the top left
+1. [Download](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/zipball/master)
 2. Unpack
 3. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/`
 
