@@ -1,4 +1,4 @@
-# mantisbt is a rockstar
+# mantisbt is a ✪ ⚡ ★ rockstar
 
 Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
 
