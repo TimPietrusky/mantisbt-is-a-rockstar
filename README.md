@@ -55,7 +55,7 @@ Your done! Go and play!
 ## ToDo 
 
  * Add live preview
- * Optimize for Microsoft Internet Explorer
+ * Detailed optimization for Microsoft Internet Explorer
  * Test more MantisBT-Versions
  * Test more browsers
  
