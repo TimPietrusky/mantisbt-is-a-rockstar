@@ -27,6 +27,7 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
  * No HTML5 (since there is just css)
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
+ * And theres a minified version, too. 
 
 ## Install
 
