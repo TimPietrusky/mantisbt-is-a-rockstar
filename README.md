@@ -4,6 +4,11 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 2012 by http://tim-pietrusky.de
 
+
+## In Action
+
+![in action](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_intro.png)
+
 ## Attributes
 
  * Just 1 x .css & 2 x images 
@@ -17,4 +22,5 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 ## ToDo 
 
+ * Add live preview
  * Test more MantisBT-Versions
