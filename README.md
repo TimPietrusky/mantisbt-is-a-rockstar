@@ -13,6 +13,9 @@ Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 ### Issues (visual enhanced)
 ![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_visual_enhanced_issues.png)
 
+### Clean and high-contrast forms
+![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_form.png)
+
 ### Lovely buttons (+1)
 ![buttons](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_buttons.png)
 
