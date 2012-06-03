@@ -1,6 +1,6 @@
-# mantisbt is a ✪ ⚡ ★ rockstar
+# mantisbt is a ☆ ✪ ★ rockstar
 
-Just another `✪ ⚡ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
+Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
 
 > This theme just uses the magic power of CSS to transform something old into something awesome. 
 
@@ -50,6 +50,8 @@ Your done! Go and play!
 
  * Chrome 19
  * Firefox 12
+ * Safari 5.1.5
+ * Internet Explorer 9.0 [needs some optimization]
 
 
 ## ToDo 
@@ -58,6 +60,14 @@ Your done! Go and play!
  * Detailed optimization for Microsoft Internet Explorer
  * Test more MantisBT-Versions
  * Test more browsers
+ 
+## Changelog
+
+### 20120603
+ - [TimPietrusky] Tested under Windows.
+ - [TimPietrusky] Tested Internet Explorer.
+ - [TimPietrusky] Removed ⚡ cause ⚡ does not work on Windows. The new rockstar ist ☆.
+ 
  
 ## License
 

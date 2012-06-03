@@ -2,7 +2,7 @@
  * mantisbt is a rockstar
  *
  *
- * Just another ✪ ⚡ ★ rockstar theme for MantisBT, the free web-based bugtracking system.
+ * Just another ☆ ✪ ★ rockstar theme for MantisBT, the free web-based bugtracking system.
  *
  * 
  *
@@ -482,7 +482,7 @@ a[href="my_view_page.php"]:before {
     position:absolute;
     right:65px;
     top:-27px;
-    content:'\272A  \26A1  \2605';
+    content:'\2606  \272A  \2605';
     color:#FFD700;
     font-size:18px;
     
@@ -724,10 +724,10 @@ tr[bgcolor] td.left:before {
     position:absolute;
     width:5%;
     
-    content:'\26A1';
+    content:'\2606';
     
     margin-top:-3px;
-    margin-left: -16px;
+    margin-left: -18px;
     
     padding:3px;
     
