@@ -27,7 +27,7 @@ Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
  * Just 1 x .css & 2 x images 
  * Super old CSS3
- * No HTML5 (since there is just css)
+ * No HTML5 (since there is just css, but it should be powered by [HTML5 ★ Boilerplate](http://html5boilerplate.com))
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
  * And there is a minified version, too (powered by [CSS Compressor & Minifier](http://www.minifycss.com/css-compressor)) 
