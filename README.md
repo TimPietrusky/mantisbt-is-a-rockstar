@@ -2,7 +2,7 @@
 
 Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org/), the free web-based bugtracking system.
 
-> This theme just uses the magic power of CSS to transform something old into something awesome. 
+> This theme just uses the magic power of CSS to transform something old into something awesome.
 
 
 2012 by http://tim-pietrusky.de
@@ -25,12 +25,12 @@ Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 ## Attributes
 
- * Just 1 x .css & 2 x images 
+ * Just 1 x .css & 2 x images
  * Super old CSS3
  * No HTML5 (since there is just css, but it should be powered by [HTML5 ★ Boilerplate](http://html5boilerplate.com))
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
- * And there is a minified version, too (powered by [CSS Compressor & Minifier](http://www.minifycss.com/css-compressor)) 
+ * And there is a minified version, too (powered by [CSS Compressor & Minifier](http://www.minifycss.com/css-compressor))
 
 
 ## Install
@@ -46,7 +46,7 @@ Your done! Go and play!
 ### MantisBT
 
  * 1.2.10
- 
+
 ### Browser
 
  * Chrome 19
@@ -55,21 +55,21 @@ Your done! Go and play!
  * Internet Explorer 9.0 [needs some optimization]
 
 
-## ToDo 
+## ToDo
 
  * Add live preview
  * Detailed optimization for Microsoft Internet Explorer
  * Test more MantisBT-Versions
  * Test more browsers
- 
+
 ## Changelog
 
 ### 20120603
  - [TimPietrusky] Tested under Windows.
  - [TimPietrusky] Tested Internet Explorer.
  - [TimPietrusky] Removed ⚡ cause ⚡ does not work on Windows. The new rockstar is ☆.
- 
- 
+
+
 ## License
 
-Free for all, so use it as you like.
+Licensed under [VVL 1.33b7](http://tim-pietrusky.de/license) which means this **work** is free for all, so use it as you like.
