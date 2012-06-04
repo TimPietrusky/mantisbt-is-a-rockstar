@@ -14,7 +14,7 @@ Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 ![intro](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_intro.png)
 
 ### Issues (visual enhanced)
-![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_visual_enhanced_issues.png?VERSION=2)
+![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_visual_enhanced_issues.png?VERSION=3)
 
 ### Clean and high-contrast forms
 ![visual enhanced issues](http://tim-pietrusky.de/img/mantisbt_is_a_rockstar_form.png)
@@ -52,7 +52,7 @@ Your done! Go and play!
  * Chrome 19
  * Firefox 12
  * Safari 5.1.5
- * Internet Explorer 9.0 [needs some optimization]
+ * Internet Explorer 9.0
 
 
 ## ToDo
@@ -63,6 +63,10 @@ Your done! Go and play!
  * Test more browsers
 
 ## Changelog
+
+
+### 20120604
+ - [TimPietrusky] Optimizations for Internet Explorer.
 
 ### 20120603
  - [TimPietrusky] Tested under Windows.

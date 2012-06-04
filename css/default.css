@@ -4,7 +4,7 @@
  *
  * Just another ☆ ✪ ★ rockstar theme for MantisBT, the free web-based bugtracking system.
  *
- * 
+ *
  *
  * 2012 by Tim Pietrusky - www.tim-pietrusky.de
  * Free for all and everything.
@@ -200,13 +200,13 @@ div.quick-summary-right	{ width: 49%; padding: 2px; text-align: right; float: ri
 .progress400				{ position: relative; width: 400px; border: 1px solid #d7d7d7; margin-top: 1em; margin-bottom: 1em; padding: 1px; }
 .progress400 .bar			{ display: block; position: relative; background: #6bba70; text-align: center; font-weight: normal; color: #333; height: 2em; line-height: 2em; }
 
-/* 
+/*
  * Reset
  */
 html {
     margin:0;
     height:100%;
-    
+
     background:transparent;
 }
 
@@ -218,23 +218,23 @@ body {
     background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%) no-repeat, url(theme/bg_light_grey.png);
     background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%) no-repeat, url(theme/bg_light_grey.png);
     background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 50%) no-repeat, url(theme/bg_light_grey.png);
-    
+
     overflow-x:hidden;
-    
+
     padding:0;
     margin:0;
     border-top: 4px solid #333;
-    
+
     color:#222;
 
     text-shadow:1px 1px 0px #aaa;
     text-shadow:1px 1px 0px rgba(250, 250, 250, .4);
 }
- 
+
 hr + br,
-div + br, 
-center + br, 
-ol > br, 
+div + br,
+center + br,
+ol > br,
 ul > br,
 pre + br { display:none; }
 
@@ -278,25 +278,29 @@ div.quick-summary-left {width:48%;margin-left:1%;}
 div.quick-summary-right {width:48%;margin-right:1%;}
 
 
-/* 
+/*
  * /// Tables ////////////////
  */
-table.width100, 
+table.width100,
 table.width90,
 table.width75,
 table.width50 {
     border:none;
     background:#F0F0F0;
-    
+
     margin-top:25px;
     margin-bottom:10px;
-    
+
     border-collapse: collapse;
-    
+
     -webkit-box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 0 0 4px rgba(60, 60, 60, .3), 0 4px 15px rgba(60, 60, 60, .8);
        -moz-box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 0 0 4px rgba(60, 60, 60, .3), 0 4px 15px rgba(60, 60, 60, .8);
             box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 0 0 4px rgba(60, 60, 60, .3), 0 4px 15px rgba(60, 60, 60, .8);
-            
+
+    /* IE8+9 */
+    border: 4px solid #999C9B \0/;
+    box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 4px 15px rgba(60, 60, 60, .8) \0/;
+
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
@@ -384,7 +388,7 @@ tr.row-category2 {
     border-bottom:1px solid #ccc;
     border-bottom:2px solid rgba(240, 240, 240, .3);
     border-top:2px solid #999;
-    
+
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
@@ -416,15 +420,15 @@ td.small-caption {font-size:inherit;}
 textarea {
     border:none;
     padding:8px;
-    
+
     -webkit-box-shadow: 0 0 0 2px rgba(60, 60, 60, .3), 0 0 8px rgba(60, 60, 60, .4);
        -moz-box-shadow: 0 0 0 2px rgba(60, 60, 60, .3), 0 0 8px rgba(60, 60, 60, .4);
             box-shadow: 0 0 0 2px rgba(60, 60, 60, .3), 0 0 8px rgba(60, 60, 60, .4);
-            
+
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
-            
+
     -moz-outline: none;
          outline: none;
 }
@@ -436,21 +440,21 @@ textarea:hover {
 }
 
 
-/* 
+/*
  * /// Anchors ////////////////
  */
 a,
 a.subtle {
     color:#222;
     text-decoration:none;
-    
+
     font-weight:bold;
-    
+
     -moz-user-focus: none;
-    
+
     -moz-outline: none;
          outline: none;
-    
+
     -webkit-box-shadow: 0 6px 10px -6px rgba(60, 60, 60, .3);
        -moz-box-shadow: 0 6px 10px -6px rgba(60, 60, 60, .3);
             box-shadow: 0 6px 10px -6px rgba(60, 60, 60, .3);
@@ -470,9 +474,9 @@ a[href="my_view_page.php"] img {
 
 a[href="my_view_page.php"],
 a[href="http://www.mantisbt.org"] {
-    
+
     position:relative;
-    
+
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
             box-shadow: none;
@@ -485,9 +489,9 @@ a[href="my_view_page.php"]:before {
     content:'\2606  \272A  \2605';
     color:#FFD700;
     font-size:18px;
-    
+
     text-shadow:0 0 3px rgba(60, 60, 60, .6);
-    
+
     opacity:.7;
 }
 
@@ -499,12 +503,12 @@ a[href="my_view_page.php"]:after {
     color:#999;
     font-weight:bold;
     font-style:italic;
-    
+
     text-shadow:0 0 3px rgba(60, 60, 60, .2);
     opacity:.7;
 }
 
-/* 
+/*
  * /// Login info ////////////////
  */
 td.login-info-left {
@@ -514,7 +518,7 @@ td.login-info-left {
     -webkit-box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 0 0 4px rgba(60, 60, 60, .1);
        -moz-box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 0 0 4px rgba(60, 60, 60, .1);
             box-shadow: 0 0 0 1px rgba(60, 60, 60, .2), 0 0 0 4px rgba(60, 60, 60, .1);
-            
+
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
@@ -531,7 +535,7 @@ td.login-info-middle > .italic {
     font-style: normal;
 }
 
-/* 
+/*
  * /// Menu ////////////////
  */
 table.width100[cellspacing="0"] {
@@ -551,7 +555,7 @@ table.width100[cellspacing="0"]:before {
     height: 0;
     left: 28px;
     top: -28px;
-    
+
     border-style:solid;
     border-color: #999 transparent transparent transparent;
     border-width: 17px 17px 0 17px;
@@ -566,7 +570,7 @@ table.width100[cellspacing="0"]:after {
     height: 0;
     left: 25px;
     top: -24px;
-    
+
     border-style:solid;
     border-color: rgba(60, 60, 60, .1) transparent transparent transparent;
     border-width: 20px 20px 0 20px;
@@ -583,10 +587,10 @@ td.menu {
     background:none;
     font-weight:bold;
     text-align:left;
-    
+
     color:#cdcecc;
     padding:11px 5px;
-    
+
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
@@ -619,13 +623,13 @@ div[align="right"] small {
     background:rgba(60, 60, 60, .1);
     padding:10px;
     padding-left:25px;
-    
+
     padding-right:3%;
-    
+
     -webkit-border-radius: 5px;
        -moz-border-radius: 5px;
             border-radius: 5px;
-    
+
     -webkit-box-shadow: 0 0 10px rgba(60, 60, 60, .3);
        -moz-box-shadow: 0 0 10px rgba(60, 60, 60, .3);
             box-shadow: 0 0 10px rgba(60, 60, 60, .3);
@@ -636,7 +640,7 @@ div[align="right"] small:before {
     position:absolute;
     top: 10px;
     left:5px;
-    
+
     width:14px;
     height:14px;
     background:#555;
@@ -695,10 +699,10 @@ hr[size="1"] + table {
     background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
     background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
-    
+
     padding:1%;
     margin:50px 0 0 0;
-    
+
     border-top:4px solid #333;
 }
 
@@ -723,20 +727,21 @@ tr[bgcolor] td.left {position:relative;padding-left:20px;}
 tr[bgcolor] td.left:before {
     position:absolute;
     width:5%;
-    
-    content:'\2606';
-    
-    margin-top:-3px;
-    margin-left: -18px;
-    
+
+    content:'\2605';
+    font-size:16px;
+
+    margin-top:-4px;
+    margin-left: -22px;
+
     padding:3px;
-    
+
     opacity:.7;
-    
+
     -webkit-border-top-left-radius:5px;
        -moz-border-top-left-radius:5px;
             border-top-left-radius:5px;
-            
+
     -webkit-border-bottom-left-radius:5px;
        -moz-border-bottom-left-radius:5px;
             border-bottom-left-radius:5px;
@@ -750,7 +755,7 @@ tr[bgcolor] td.left:before {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ffffff', endColorstr='#00ffffff',GradientType=1 );
 }
 
-*[bgcolor] td, 
+*[bgcolor] td,
 td[bgcolor="#fcbdbd"],
 td[bgcolor="#e3b7eb"],
 td[bgcolor="#ffcd85"],
@@ -771,7 +776,7 @@ td[bgcolor="#c9ccc4"] {
 tr[bgcolor="#fcbdbd"],
 td[bgcolor="#fcbdbd"] {background-color:#f92727;}
 
-tr[bgcolor="#fcbdbd"]:hover, 
+tr[bgcolor="#fcbdbd"]:hover,
 td[bgcolor="#fcbdbd"]:hover {background-color:#f91717;}
 
 
@@ -779,7 +784,7 @@ td[bgcolor="#fcbdbd"]:hover {background-color:#f91717;}
 tr[bgcolor="#e3b7eb"],
 td[bgcolor="#e3b7eb"] {background-color:#d569ea;}
 
-tr[bgcolor="#e3b7eb"]:hover, 
+tr[bgcolor="#e3b7eb"]:hover,
 td[bgcolor="#e3b7eb"]:hover {background-color:#d559ea;}
 
 
@@ -787,7 +792,7 @@ td[bgcolor="#e3b7eb"]:hover {background-color:#d559ea;}
 tr[bgcolor="#ffcd85"],
 td[bgcolor="#ffcd85"] {background-color:#ffb247;}
 
-tr[bgcolor="#ffcd85"]:hover, 
+tr[bgcolor="#ffcd85"]:hover,
 td[bgcolor="#ffcd85"]:hover {background-color:#ffa625;}
 
 
@@ -795,7 +800,7 @@ td[bgcolor="#ffcd85"]:hover {background-color:#ffa625;}
 tr[bgcolor="#fff494"],
 td[bgcolor="#fff494"] {background-color:#ffe838;}
 
-tr[bgcolor="#fff494"]:hover, 
+tr[bgcolor="#fff494"]:hover,
 td[bgcolor="#fff494"]:hover {background-color:#ffe500;}
 
 
@@ -803,7 +808,7 @@ td[bgcolor="#fff494"]:hover {background-color:#ffe500;}
 tr[bgcolor="#c2dfff"],
 td[bgcolor="#c2dfff"] {background-color:#72b6ff;}
 
-tr[bgcolor="#c2dfff"]:hover, 
+tr[bgcolor="#c2dfff"]:hover,
 td[bgcolor="#c2dfff"]:hover {background-color:#41b6ff;}
 
 
@@ -811,7 +816,7 @@ td[bgcolor="#c2dfff"]:hover {background-color:#41b6ff;}
 tr[bgcolor="#d2f5b0"],
 td[bgcolor="#d2f5b0"] {background-color:#a2f450;}
 
-tr[bgcolor="#d2f5b0"]:hover, 
+tr[bgcolor="#d2f5b0"]:hover,
 td[bgcolor="#d2f5b0"]:hover {background-color:#a6f410;}
 
 
@@ -819,11 +824,11 @@ td[bgcolor="#d2f5b0"]:hover {background-color:#a6f410;}
 tr[bgcolor="#c9ccc4"],
 td[bgcolor="#c9ccc4"] {background-color:#bec4be;}
 
-tr[bgcolor="#c9ccc4"]:hover, 
+tr[bgcolor="#c9ccc4"]:hover,
 td[bgcolor="#c9ccc4"]:hover {background-color:#bbb;}
 
 
-/* 
+/*
  * /// Issue status ////////////////
  */
 .issue-status {
@@ -831,15 +836,29 @@ td[bgcolor="#c9ccc4"]:hover {background-color:#bbb;}
     border:none;
 }
 
-.issue-status:before {
+.issue-status:after {
     position:absolute;
-    content:'\27A4';
-    
-    left:-16px;
-    opacity:.6;
+    content:'\2606';
+    font-size:18px;
+
+    top:-4px;
+    right:0;
+    opacity:.8;
+
+    color:#fff;
 }
 
-/* 
+td.center .issue-status {
+    float:left;
+    text-align:right;
+    display:block;
+
+    width:45%;
+    margin:0 0 0 20px;
+    padding:0 25px 0 0;
+}
+
+/*
  * /// Required ////////////////
  */
 span.required {
@@ -847,7 +866,7 @@ span.required {
     font-weight:bold;
     color: #dd0000;
     position:relative;
-    
+
     margin:0 5px;
 }
 
@@ -855,17 +874,17 @@ span.required:before {
     position:absolute;
     content:'\2605';
     color: #dd0000;
-    
+
     left:-7px;
     top:-11px;
-    
+
     color:#FFD700;
     font-size:17pt;
-    
+
     text-shadow:0 1px 1px rgba(160, 160, 160, .8);
 }
 
-/* 
+/*
  * /// Add bug ////////////////
  */
 #bugnote_add_open {position:relative;}
@@ -873,15 +892,15 @@ span.required:before {
     position:absolute;
     content:'\272A';
     color: #dd0000;
-    
+
     left:7px;
     top:-22px;
-    
+
     color:#FFD700;
     font-size:30px;
-    
+
     text-shadow:0 1px 1px rgba(160, 160, 160, .8);
-    
+
     -webkit-transform: scale(1.2);
        -moz-transform: scale(1.2);
         -ms-transform: scale(1.2);
@@ -894,7 +913,7 @@ span.required:before {
 /*
  * /// Icons ////////////////
  */
- 
+
 a[href^="bug_update_page"] img {
     display:none;
 }
@@ -912,20 +931,20 @@ a[href^="bug_update_page"]:before {
 /* http://jsfiddle.net/TimPietrusky/R7gQn/ */
 img[src="images/ok.gif"] {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box; 
+       -moz-box-sizing: border-box;
             box-sizing: border-box;
     height:0;
     width:0;
     padding:10px 5px 5px;
     content:"";
-    
+
     background:#E6EFC2;
     border:2px solid #C6D880;
-    
+
     -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff, 0 0 6px rgba(60, 60, 60, .4);
        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff, 0 0 6px rgba(60, 60, 60, .4);
             box-shadow:inset 0px 1px 0px 0px #ffffff, 0 0 6px rgba(60, 60, 60, .4);
-    
+
     -webkit-border-radius:5px;
        -moz-border-radius:5px;
             border-radius:5px;
@@ -941,26 +960,26 @@ img[src="images/ok.gif"]:after {
 /*
  * /// Input: "Buttons" ////////////////
  */
-input.button-small {font-size:inherit;} 
- 
+input.button-small {font-size:inherit;}
+
 
 input[type="submit"],
 input[type="file"] {
     -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
             box-shadow:inset 0px 1px 0px 0px #ffffff;
-    
+
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
     background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
     background-color:#ededed;
-    
+
     -webkit-border-radius:5px;
        -moz-border-radius:5px;
             border-radius:5px;
-            
+
     border:2px solid rgba(60, 60, 60, .2);
-    
+
     display:inline-block;
     color:#333;
     font-family:arial;
@@ -968,7 +987,7 @@ input[type="file"] {
     padding:7px 24px;
     text-decoration:none;
     text-shadow:1px 1px 0px #ffffff;
-    
+
     cursor:pointer;
 }
 
@@ -978,11 +997,11 @@ input[type="file"]:hover {
     background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
     background-color:#dfdfdf;
-    
+
     -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff, 0 0 8px rgba(60, 60, 60, .4);
        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff, 0 0 8px rgba(60, 60, 60, .4);
             box-shadow:inset 0px 1px 0px 0px #ffffff, 0 0 8px rgba(60, 60, 60, .4);
-    
+
     color:#777;
 }
 
@@ -1005,18 +1024,18 @@ input[id="ufile[]"]:before {
 input[type="text"],
 input[type="password"] {
     border: none;
-    
+
     display:inline-block;
     color:#333;
     padding:7px 5px;
-    
+
     -webkit-border-radius:5px;
        -moz-border-radius:5px;
             border-radius:5px;
-            
+
     -moz-outline: none;
          outline: none;
-         
+
     -webkit-box-shadow: 0 0 0 2px rgba(60, 60, 60, .3), 0 0 8px rgba(60, 60, 60, .4);
        -moz-box-shadow: 0 0 0 2px rgba(60, 60, 60, .3), 0 0 8px rgba(60, 60, 60, .4);
             box-shadow: 0 0 0 2px rgba(60, 60, 60, .3), 0 0 8px rgba(60, 60, 60, .4);
@@ -1044,26 +1063,26 @@ select {
     padding:6px 5px;
     color:#333;
     cursor:pointer;
-    
+
     -webkit-user-select: none;
-       -moz-user-select: none;  
+       -moz-user-select: none;
             user-select: none;
-            
+
     -moz-user-focus: none;
-    
+
     -moz-outline: none;
          outline: none;
-    
+
     border:2px solid rgba(60, 60, 60, .2);
-    
+
     -webkit-border-radius:5px;
        -moz-border-radius:5px;
             border-radius:5px;
-       
+
     -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
        -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
             box-shadow:inset 0px 1px 0px 0px #ffffff;
-            
+
     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
     background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
