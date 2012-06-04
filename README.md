@@ -66,7 +66,7 @@ Your done! Go and play!
 ### 20120603
  - [TimPietrusky] Tested under Windows.
  - [TimPietrusky] Tested Internet Explorer.
- - [TimPietrusky] Removed ⚡ cause ⚡ does not work on Windows. The new rockstar ist ☆.
+ - [TimPietrusky] Removed ⚡ cause ⚡ does not work on Windows. The new rockstar is ☆.
  
  
 ## License
