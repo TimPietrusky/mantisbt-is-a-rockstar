@@ -30,7 +30,8 @@ Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
  * No HTML5 (since there is just css)
  * Fancy gradients (powered by [Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/))
  * +1 buttons (powered by [CSS Button Generator](http://cssbuttongenerator.com) with default settings)
- * And there is a minified version, too. 
+ * And there is a minified version, too (powered by [CSS Compressor & Minifier](http://www.minifycss.com/css-compressor)) 
+
 
 ## Install
 
