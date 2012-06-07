@@ -64,6 +64,9 @@ Your done! Go and play!
 
 ## Changelog
 
+### 20120607
+ - [TimPietrusky] Fixed issue #1.
+ - [TimPietrusky] Added CSS for bugnote and avatar.
 
 ### 20120604
  - [TimPietrusky] Optimizations for Internet Explorer.
