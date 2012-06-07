@@ -65,7 +65,7 @@ Your done! Go and play!
 ## Changelog
 
 ### 20120607
- - [TimPietrusky] Fixed issue #1
+ - [TimPietrusky] Fixed issue [#1](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/issues/1).
  - [TimPietrusky] Added CSS for bugnote and avatar.
 
 ### 20120604
