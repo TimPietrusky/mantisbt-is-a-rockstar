@@ -327,11 +327,26 @@ div.quick-summary-right {width:48%;margin-right:1%;}
     overflow:hidden;
     display:block;
 
-  -webkit-transform: scale(1.01) translate(0,-20px);
-     -moz-transform: scale(1.01) translate(0,-20px);
+    -webkit-transform: scale(.98) translate(0, 10px);
+     /*-moz-transform: scale(1.01) translate(0,-20px);
       -ms-transform: scale(1.01) translate(0,-20px);
        -o-transform: scale(1.01) translate(0,-20px);
-          transform: scale(1.01) translate(0,-20px);
+          transform: scale(1.01) translate(0,-20px);*/
+}
+
+#filter_closed.hidden,
+#relationships_closed.hidden,
+#upload_form_closed.hidden,
+#monitoring_closed.hidden,
+#bugnotes_closed.hidden,
+#bugnote_add_closed.hidden,
+#history_closed.hidden {
+
+    -webkit-transform: scale(1.01) translate(0,-10px);
+     /*-moz-transform: scale(1.01) translate(0,-20px);
+      -ms-transform: scale(1.01) translate(0,-20px);
+       -o-transform: scale(1.01) translate(0,-20px);
+          transform: scale(1.01) translate(0,-20px);*/
 }
 
 
