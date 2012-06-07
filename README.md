@@ -67,6 +67,7 @@ Your done! Go and play!
 ### 20120607
  - [TimPietrusky] Fixed issue [#1](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/issues/1).
  - [TimPietrusky] Added CSS for bugnote and avatar.
+ - [TimPietrusky] Added simple transition for "open/close" elements (e.g. filter)
 
 ### 20120604
  - [TimPietrusky] Optimizations for Internet Explorer.
