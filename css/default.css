@@ -1011,12 +1011,19 @@ input[type="file"]:active {
     top:1px;
 }
 
+
+/* add new project */
+.form-title input[type="submit"] {
+    margin-left:15px;
+}
+
 /* Upload file */
 input[id="ufile[]"]:before {
     content:'\271A';
     margin-left:-18px;
     padding-right:7px;
 }
+
 
 /*
  * /// Input: "Fields" ////////////////
