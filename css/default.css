@@ -893,7 +893,8 @@ td.bugnote-private {
     background:#BBB;
 
     border-right:2px solid #aaa;
-    border-bottom:2px solid #aaa;
+    border-top:5px solid #aaa;
+    border-bottom:5px solid #aaa;
 }
 td.bugnote-note-private {background:#ddd;}
 
