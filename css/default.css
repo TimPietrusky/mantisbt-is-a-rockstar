@@ -828,6 +828,40 @@ tr[bgcolor="#c9ccc4"]:hover,
 td[bgcolor="#c9ccc4"]:hover {background-color:#bbb;}
 
 
+/* bugnote */
+td.bugnote-public {
+    border-right:2px solid #e3e3e3;
+    border-bottom:2px solid #e3e3e3;
+
+    background:transparent;
+}
+
+td.bugnote-private {
+    background:#BBB;
+
+    border-right:2px solid #aaa;
+    border-bottom:2px solid #aaa;
+}
+td.bugnote-note-private {background:#ddd;}
+
+/* avatar */
+.avatar {
+    border:3px solid #fff;
+}
+
+td.bugnote-public .avatar {
+    -webkit-box-shadow: 2px 2px 10px #D1D1D1;
+       -moz-box-shadow: 2px 2px 10px #D1D1D1;
+            box-shadow: 2px 2px 10px #D1D1D1;
+}
+
+td.bugnote-private .avatar {
+    -webkit-box-shadow: 2px 2px 10px #9D9D9D;
+       -moz-box-shadow: 2px 2px 10px #9D9D9D;
+            box-shadow: 2px 2px 10px #9D9D9D;
+}
+
+
 /*
  * /// Issue status ////////////////
  */
