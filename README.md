@@ -7,6 +7,13 @@ Just another `☆ ✪ ★ rockstar` theme for [MantisBT](http://www.mantisbt.org
 
 2012 by http://tim-pietrusky.de
 
+## Version
+
+Public beta*
+
+**Elvis has not left the building ♦ Please report bug's so he can go*
+
+
 
 ## In Action
 
