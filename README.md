@@ -44,7 +44,9 @@ Public beta*
 
 1. [Download](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/zipball/master)
 2. Unpack
-3. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/`
+3. Create a **rockstar** folder: `<mantis_root>/css/rockstar`
+4. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/rockstar/`
+5. Add the following line to your `config_inc.php` to change the css file included into MantisBT: `$g_css_include_file = "/css/rockstar/default.css";`
 
 Your done! Go and play!
 
