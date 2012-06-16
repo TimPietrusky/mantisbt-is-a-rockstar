@@ -71,22 +71,6 @@ Your done! Go and play!
  * Test more MantisBT-Versions
  * Test more browsers
 
-## Changelog
-
-### 20120607
- - [TimPietrusky] Fixed issue [#1](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/issues/1).
- - [TimPietrusky] Added CSS for bugnote and avatar.
- - [TimPietrusky] Added simple transition for "open/close" elements (e.g. filter)
-
-### 20120604
- - [TimPietrusky] Optimizations for Internet Explorer.
-
-### 20120603
- - [TimPietrusky] Tested under Windows.
- - [TimPietrusky] Tested Internet Explorer.
- - [TimPietrusky] Removed ⚡ cause ⚡ does not work on Windows. The new rockstar is ☆.
-
-
 ## License
 
 Licensed under [VVL 1.33b7](http://tim-pietrusky.de/license) which means this **work** is free for all, so use it as you like.
