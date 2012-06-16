@@ -3,6 +3,7 @@
 ## 20120616
  - [TimPietrusky] Moved the changelog from README.md to CHANGELOG.md
  - [TimPietrusky] Added "code"-tag styling.
+ - [TimPietrusky] Removed multi-element-handling of "space to the edge" & fixed issue [#3](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/issues/3).
 
 ## 20120611
  - [TimPietrusky] Fixed issue [#5](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/issues/5).
