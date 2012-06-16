@@ -1031,8 +1031,8 @@ span.required:before {
     content:'\272A';
     color: #dd0000;
 
-    left:7px;
-    top:-22px;
+    left:-12px;
+    top:-20px;
 
     color:#FFD700;
     font-size:30px;
@@ -1045,7 +1045,6 @@ span.required:before {
          -o-transform: scale(1.2);
             transform: scale(1.2);
 }
-
 
 
 /*
