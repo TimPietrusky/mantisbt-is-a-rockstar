@@ -218,6 +218,8 @@ html {
     margin:0;
     height:100%;
 
+    border-top: 4px solid #333;
+
     background:transparent;
 }
 
@@ -233,8 +235,8 @@ body {
     overflow-x:hidden;
 
     padding:0;
-    margin:0;
-    border-top: 4px solid #333;
+
+    margin:0 1%;
 
     color:#222;
 
@@ -273,24 +275,6 @@ a {
          -o-transition: all .3s ease-in-out;
             transition: all .3s ease-in-out;
 }
-
-/*
- * /// Space to the edge ////////////////
- */
-table.width100,
-table.hide {
-    width:98%;
-    margin:0 1%;
-}
-
-div[align="right"],
-div.right {margin:0 1%;}
-
-p {margin:5px 1%;}
-
-div.quick-summary-left {width:48%;margin-left:1%;}
-div.quick-summary-right {width:48%;margin-right:1%;}
-
 
 /*
  * /// Simple transition for "open/close" elements ////////////////
@@ -815,7 +799,9 @@ hr[size="1"] + table {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
 
     padding:1%;
-    margin:50px 0 0 0;
+    margin:50px 0 0 -1.1%;
+
+    width:103%;
 
     border-top:4px solid #333;
 }
