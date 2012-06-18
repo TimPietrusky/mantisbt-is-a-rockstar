@@ -61,7 +61,7 @@ Public beta*
 4. Copy all files from the unpacked folder `rockstar/*` to `<mantis_root>/css/rockstar/`
 5. Add the following line to your `config_inc.php` to change the css file included into MantisBT: `$g_css_include_file = "/css/rockstar/default.css";`
 
-'''Your done! Go and play!'''
+**Your done! Go and play!**
 
 ## Tested
 
