@@ -1,5 +1,9 @@
 # Changelog
 
+## 20120618
+ - [TimPietrusky] Renamed `css` to `rockstar` to match the MantisBT ThemeManager plugin conventions
+ - [TimPietrusky] Added a preview picture `rockstar.png` to match the MantisBT ThemeManager plugin conventions
+
 ## 20120616
  - [TimPietrusky] Moved the changelog from README.md to CHANGELOG.md
  - [TimPietrusky] Added "code"-tag styling.

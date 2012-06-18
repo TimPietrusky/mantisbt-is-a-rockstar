@@ -948,7 +948,10 @@ td.bugnote-note-private {background:#ddd;}
 td.bugnote-note-private,
 td.bugnote-note-public {font-weight:normal;}
 
-/* avatar */
+
+/*
+ * /// Avatar ////////////////
+ */
 .avatar {
     border:3px solid #fff;
 }
@@ -1045,7 +1048,6 @@ span.required:before {
          -o-transform: scale(1.2);
             transform: scale(1.2);
 }
-
 
 /*
  * /// Icons ////////////////

@@ -42,13 +42,24 @@ Public beta*
 
 ## Install
 
+### With MantisBT ThemeManager
+
+1. [Download](http://github.com/TimPietrusky/MantisThemeManager/zipball/master)
+2. Unpack
+3. Rename the unpacked folder `TimPietrusky-MantisThemeManager-xxxxxxx` to `MantisThemeManager`
+4. Copy the `MantisThemeManager` folder to `<mantis-root>/plugins/`
+5. Go to ''Manage / Manage Plugins'' and hit the ''Install'' action for '''MantisBT Theme Manager'''
+6. Click on the link `MantisBT Theme Manager x.x.x` to choose a theme
+
+### By hand
+
 1. [Download](http://github.com/TimPietrusky/mantisbt-is-a-rockstar/zipball/master)
 2. Unpack
-3. Create a **rockstar** folder: `<mantis_root>/css/rockstar`
-4. Copy all files from the unpacked folder `css/*` to `<mantis_root>/css/rockstar/`
+3. Create a **rockstar** folder: `<mantis-root>/css/rockstar`
+4. Copy all files from the unpacked folder `rockstar/*` to `<mantis_root>/css/rockstar/`
 5. Add the following line to your `config_inc.php` to change the css file included into MantisBT: `$g_css_include_file = "/css/rockstar/default.css";`
 
-Your done! Go and play!
+'''Your done! Go and play!'''
 
 ## Tested
 
