@@ -44,7 +44,7 @@ Public beta*
 
 ### With MantisBT ThemeManager
 
-(MantisBT Theme Manager)[http://github.com/TimPietrusky/MantisThemeManager]
+[MantisBT Theme Manager](http://github.com/TimPietrusky/MantisThemeManager)
 
 1. [Download](http://github.com/TimPietrusky/MantisThemeManager/zipball/master)
 2. Unpack
